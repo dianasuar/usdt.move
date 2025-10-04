@@ -1,0 +1,16 @@
+[package]
+name = "sportsbook_platform"
+version = "1.0.0"
+authors = []
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
+
+[addresses]
+sportsbook_platform = "0xfc26c5948f1865f748fe43751cd2973fc0fd5b14126104122ca50483386c4085"
