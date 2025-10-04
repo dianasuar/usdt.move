@@ -195,21 +195,3 @@ aptos move run --profile admin \
   [0x7fc2af...f4c ↗](https://explorer.aptoslabs.com/txn/0x7fc2afbda260119075355416e6fe5ad35ebb8e36bf2438f809979bbc817bcf4c?network=testnet)
 
 ---
-
-## 🧑‍💻 Author
-
-**Abhishek Roushan** — [@KazarHQ](https://x.com/KazarHQ)
-Founder, [Metakraft AI](https://metakraft.ai)
-
----
-
-## 🪪 License
-
-MIT License © 2025
-
-```
-
----
-
-Would you like me to generate a **`README.md` file** (ready to commit) inside your `reset-token` folder with proper Markdown formatting and explorer links automatically inserted?
-```
