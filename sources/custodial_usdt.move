@@ -32,7 +32,9 @@ module sportsbook_platform::custodial_usdt {
     }
 
     /// Read balance
-    public fun balance_of(addr: address): u128 acquires Balances {
+
+#[view]
+public fun balance_of(addr: address): u128 acquires Balances {
         let b = borrow_global<Balances>(@sportsbook_platform);
         let idx_opt = find_index(&b.addrs, addr);
         if (option::is_some(&idx_opt)) {
